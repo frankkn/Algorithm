@@ -4,11 +4,10 @@
 #include <vector>
 using namespace std;
 
-void BFS(vector<vector<int>>& graph, int start)
+void BFS(vector<vector<int>>& graph, int& start)
 {
-  int i = start;
   queue<int> q;
-  q.push(i);
+  q.push(start);
   vector<bool> visited(graph.size());
   while(!q.empty())
   {
