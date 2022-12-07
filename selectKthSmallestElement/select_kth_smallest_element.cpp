@@ -2,6 +2,7 @@
 #include <chrono>
 #include <iostream>
 #include <functional>
+#include <numeric>
 #include <random>
 #include <vector>
 
